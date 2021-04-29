@@ -37,6 +37,13 @@ body {
 .card-body {
     flex: auto; 
     min-height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    padding: 0.4rem;
 }
 .card-nav{ 
     flex: 1;
